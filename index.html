@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name'viewport' contect="width=device-width">
+    <title>Proyecto Encriptador</title>
+    <link rel="stylesheet" href="resetear.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <section class="cabeza">
+        <img id='logoalura' src="logoAlura.png">
+        <h1>Encriptador</h1>
+    </section>
+    <main>
+        <img src="fondocandado.png" alt="Imagen encriptador" width="450" id="fondoencriptador">
+
+        <section class="encriptacion">
+            <textarea name="encriptartexto" id="encriptartext" pattern="[a-z]" cols="40" rows="12" required placeholder="Ingrese texto que desea encriptar."></textarea>
+        </section>
+
+        <section class="desencriptacion">
+            <textarea name="desencriptartexto" id="desencriptartext" pattern="[a-z]" cols="35" rows="25"></textarea>
+            </body>
+        </section>
+
+        <script src="encriptador.js"></script>
+
+        <section class="botones">
+            <button class="botonencriptar" onclick="btnEncriptar()">Encriptar</button>
+            <button class="botondesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            <button class="copiar" onclick="copiar()">Copiar Texto</button>
+        </section>
+    </main>
+        <section class="aviso">
+            ⚠ No colocar tildes ni carácteres especiales, únicamente se aceptan letras.
+        </section>
+        
+</body>
+<footer>
+    <p>Página realizada por Juan Pablo Vallejo.</p>
+    <p>ONE Alura</p>
+</footer>
+
+
+</html>
